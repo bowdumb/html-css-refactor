@@ -75,6 +75,16 @@ p {
     margin-left: 20px;
 }
 
+/* Added .content article class tag to improve individual article CSS */
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,12 +98,16 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead {
+/* Created one class for the <article> in order to streamline with consistency */
+
+.benefit-articles {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* Removed redundant class assignments */
+
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -101,14 +115,16 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* Removed redundant class assignments */
+
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -116,27 +132,30 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+.benefit-articles img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* Removed redundant class assignments */
+
+/* .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.benefit-cost img {
+/* .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.search-engine-optimization {
+
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,9 +180,14 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+/* Created .content img property to consolidate redundant individual img properties below. */
+
+.content img {
+    max-height: 200px;
+}
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -173,9 +197,16 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
+} */
+
+/* Added .header class assignment to consolidate redundant h2 CSS elements below. */
+
+.header {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -188,7 +219,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
